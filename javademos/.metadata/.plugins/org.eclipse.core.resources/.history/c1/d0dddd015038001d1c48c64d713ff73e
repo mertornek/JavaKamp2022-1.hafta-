@@ -1,0 +1,43 @@
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int number = 9;
+		
+	
+		
+		
+		for(int i=2; i< number; i++ ) {
+			
+	
+			
+			if(number % i == 0 ) {
+				System.out.println("Asal Değil");
+				break;
+			}
+			else if(number % i != 0){
+				System.out.println("Asal değil");
+				break;
+				}
+			
+			else {
+				System.out.println("Asal sayı değil");
+				break;
+				
+			}
+			
+		
+		
+		}
+		
+		}
+		
+		
+		
+		
+		
+
+	}
+

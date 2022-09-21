@@ -1,0 +1,56 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+	
+	int number = 2;
+	
+	if(number ==2) {
+		System.out.println("Asaldırrrr");
+	}
+	if(number == 1) {
+		System.out.println("Asal Sayı Değildirrr");
+	}
+	
+	
+	
+	
+	
+	
+	for(int i = 2; i<number; i++) {
+		
+		
+		if(number % i==0) {
+			System.out.println("Asal sayı değildir");
+			break;
+		}
+		
+		else {
+			System.out.println("Asaldır");
+			break;
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

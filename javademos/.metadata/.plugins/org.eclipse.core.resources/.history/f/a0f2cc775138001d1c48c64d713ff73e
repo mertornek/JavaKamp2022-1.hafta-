@@ -1,0 +1,48 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+	
+	int number = 13;
+	
+	for(int i = 2; i<number; i++) {
+		
+		
+		if(number % i==0) {
+			System.out.println("Asal sayı değildir");
+			break;
+		}
+		
+		else {
+			System.out.println("Asaldır");
+			break;
+		}
+		
+		
+	}
+	
+	if(number == 2) {
+		System.out.println("Girdiğin sayı 2");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}
